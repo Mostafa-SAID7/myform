@@ -1,0 +1,100 @@
+.wrapper{
+width: 420px;
+color: rgb(245, 245, 245);
+border-radius: 20px;
+padding: 30px 40px;
+box-shadow: 0 0 10px rgba(255,255,2505,.7);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(10px) saturate(180%);
+background-color:transparent;
+border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.wrapper h1{
+    text-align: center;
+}
+.wrapper .input-box{
+position: relative;
+width: 100%;
+height: 50px;
+margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 21px;
+    color: aliceblue;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: aliceblue;
+    font-family: "Pompiere", sans-serif; 
+}
+.input-box .icon{
+    position: absolute;
+    right: 20px ;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: -15px 0 15px;
+
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 5px;
+}
+.remember-forgot a{
+color: #fff;
+text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    color: #333;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-family: "Pompiere", sans-serif; 
+    font-size: 32px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+.wrapper .register-link{
+font-size: 24px;
+display: flex;
+text-align: center;
+margin: 20px 0 15px;
+justify-content: space-around;
+}
+.register-link p{
+/* background-color:rgb(218, 207, 207);
+border: none;
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(10px) saturate(180%);
+border-radius: 20px;
+padding: 5px 10px 0px 10px ; */
+color: red;
+}
+
+.register-link  a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link  a:hover{
+    text-decoration: underline;
+}
